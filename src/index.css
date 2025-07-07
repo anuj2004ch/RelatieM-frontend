@@ -1,0 +1,11 @@
+
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: all;
+}
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
